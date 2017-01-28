@@ -56,13 +56,19 @@ module.exports = function(environment) {
   };
 
 ENV.googleMap = {
-  apiKey: 'AIzaSyCjzFanRWktcpT4gUauxjv4U2ZNGTWFkis'
+  apiKey: 'AIzaSyDdz0j0TEZ22o94Gp9bqJrBndheQ6hrPmU'
 }
 
 ENV.googleMap = {
   libraries: ['drawing', 'visualization']
 }
-
+ENV.googleMap = {
+  version: '3', // not recommended
+  protocol: '//', // default
+  lazyLoad: false, // default
+  language: 'en', // optional
+  region: 'IN' // optional
+}
 
   return ENV;
 };
