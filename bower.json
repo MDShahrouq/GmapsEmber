@@ -1,5 +1,6 @@
 {
   "name": "dummymap",
   "dependencies": {
+    "gmaps-for-apps": "^0.5.14"
   }
 }
